@@ -1,1 +1,0 @@
-# SA50-1-19_AndrewKudinov
