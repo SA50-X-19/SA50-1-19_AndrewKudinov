@@ -3,13 +3,16 @@
     margin: 0;
     list-style-type: none;
     box-sizing: border-box;
+    text-decoration: none;
 }
+
 
 .wrapper {
     width: 100vw;
     display: flex;
     justify-content: center;
     padding-top: 79px;
+    background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%);
 }
 
 .header {
@@ -17,5 +20,89 @@
     max-width: 1100px;
     display: flex;
     justify-content: space-between;
+
+    font-size: 12px;
+    font-weight: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
+/* menu */
+.menu__links {
+    color: rgba(235, 235, 235, 1);
+}
+
+
+.header__left {
+    display: flex;
+    justify-content: start;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.menu__list {
+    display: flex;
+    justify-content: start;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.menu__items {
+    display: flex;
+
+    margin-right: 20px;
+}
+/* menu */
+
+/* Sign block */
+.sign__links1 {
+    color:  rgba(255, 255, 255, 1);
+}
+.sign__links2 {
+    color:  rgba(242, 153, 74, 1); 
+}
+
+
+.sign {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+
+}
+
+.sign__up {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    border: 1px solid rgba(242, 153, 74, 1);
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: orange;
+
+    margin-left: 20px;
+    
+    height: 36px;
+    width: 112px;
+}
+
+.sign__in {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    border: 1px solid rgba(242, 153, 74, 1);
+    box-sizing: border-box;
+    border-radius: 4px;
+    /*background-color: rgba(242, 153, 74, 1); */
+
+    margin-left: 20px;
+
+    height: 36px;
+    width: 112px;
+}
+/* Sign block */
