@@ -1,0 +1,20 @@
+.menu__links:hover {
+    background-color: rgba(41, 41, 41, 2);
+    transform: scale(1.5);
+
+    transition: 400ms;
+}
+
+/* SIGN_IN/UP */
+.sign__in:hover {
+    background-color: rgb(41, 41, 41);
+    border:rgb(41, 41, 41);
+
+    transition: 400ms;
+}
+.sign__up:hover {
+    background-color: rgb(41, 41, 41);
+    border: rgb(41, 41, 41);
+
+    transition: 400ms;
+}
