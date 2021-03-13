@@ -1,0 +1,31 @@
+/* rgb(128, 128, 128) */
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.background {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(222.26deg, #10cabb 1.22%, #7c15c2 106.28%);
+}
+
+
+.regbox {
+    display: flex;
+    height: 450px;
+    width: 350px;
+    background-color: rgb(128, 128, 128);
+
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;    
+}
+
+.regbox__header {
+    display: flex;
+    justify-content: center;
+}
