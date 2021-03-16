@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Open Sans";
+}
+  
+.wrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+  
+.header {
+    width: 100%;
+    max-width: 1080px;
+    height: 100%;
+    min-height: 780px;
+
+    display: flex;
+    justify-content: space-around;
+
+    font-family: Roboto;
+    font-style: normal;
+
+    font-size: 32px;
+    font-weight: 400;
+
+    line-height: 60px;
+}
+  
+.header__logo {
+    width: 240px;
+    height: 60px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+  
+.menu__list{
+    width:480px;
+
+    display: flex;
+    justify-content: space-around;
+}
+  
+button {
+    height: 50px;
+    width: 120px;
+
+    font-style: normal;
+
+    font-size: 22px;
+    font-weight: 400;
+
+    line-height: 28px;
+
+    text-align: center;
+
+    border: 2px solid #CD6326;
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+    color: white;      
+    background-color: Transparent;
+}
+
+a {
+    color: rgba(247, 247, 247, 1);
+}
+
+img {
+    filter: invert(1);
+}
+
+h1 {
+    font-style: normal;
+
+    font-size: 32px;
+    font-weight: 400;
+
+    line-height: 60px;
+    
+    color: #f7f7f7;
+}
+
+header {
+    background-image: url(fox_back.png);
+}
+
+.hidenh1 {
+    background-color: black;
+    visibility: hidden;
+}
+
