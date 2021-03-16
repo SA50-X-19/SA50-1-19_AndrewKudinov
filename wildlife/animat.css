@@ -1,0 +1,20 @@
+button:hover {
+    background-color: #cd6326;
+}
+
+button:active {
+    background-color: rgba(41, 41, 41, 2);
+}
+
+.search-icon:hover {
+    transform: scaleX(-1);
+    transition: 400ms;
+}
+
+a:active {
+    background-color: #4a5438;
+    color:rgba(41, 41, 41, 2);
+    transition: 200ms;
+}
+
+
