@@ -26,3 +26,9 @@ a:active {
 #button2:active {
     background-color: rgba(41, 41, 41, 2);
 }
+
+/* Нижняя часть */
+#strelka:hover {
+    transform: scaleY(-1);
+    transition: 400ms;
+}

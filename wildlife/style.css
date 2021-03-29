@@ -174,17 +174,125 @@ h1 {
     width: 100vw;
     display: flex;
 
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
 
     background-color: #02160b;
+
+    z-index: -1;
 }
 
 .last_articles {
     width: 100%;
     max-width: 1080px;
     height: 100%;
-    min-height: 780px; 
+    min-height: 780px;
+
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     
     background-color: #cccccc;
+}
+
+.articles__header {
+    height: 270px;
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+#head_1 {
+    text-align: center;
+    font-style: normal;
+
+    font-size: 48px;
+
+    font-weight: 400;
+
+    line-height: 72px;
+    letter-spacing: 0em;
+
+    color: #333333; 
+}
+#head_2 {
+    text-align: center;
+    font-style: normal;
+
+    font-size: 24px;
+
+    font-weight: 400;
+
+    line-height: 36px;
+    letter-spacing: 0em;
+    
+    color: #666666;
+}
+
+.articles__body {
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.illustration {
+    height: 360px;
+    width: 1200px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.picture__1 {
+    height: 360px;
+    width: 300px;
+
+    display: flex;
+
+    align-items: flex-end;
+    justify-content: center;
+
+    background-image: url(picture/Olen.jpg)
+}
+.picture__2 {
+    height: 360px;
+    width: 300px;
+
+    display: flex;
+
+    align-items: flex-end;
+    justify-content: center;
+
+    background-image: url(picture/Belka.jpg)
+}
+.picture__3 {
+    height: 360px;
+    width: 300px;
+
+    display: flex;
+
+    align-items: flex-end;
+    justify-content: center;
+
+    background-image: url(picture/Bird.jpg)
+}
+
+#white {
+    color: white;
+}
+
+/* Подвал (Basement) */
+
+.articles__basement {
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-around;
 }
